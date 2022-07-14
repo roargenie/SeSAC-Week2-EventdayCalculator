@@ -11,7 +11,9 @@ class ViewController: UIViewController {
     
     @IBOutlet var imageViewArr: [UIImageView]!
     
+    @IBOutlet var dDayLabelArr: [UILabel]!
     
+    @IBOutlet var labelArr: [UILabel]!
     
     
     
@@ -33,6 +35,36 @@ class ViewController: UIViewController {
             i.clipsToBounds = true
             
         }
+        
+    }
+    
+    
+    
+    @IBAction func datePicker(_ sender: UIDatePicker) {
+        
+//        struct Dday {
+//
+//            let date = Date()
+//
+//            var dDay: String {
+//                let formatter = DateFormatter()
+//                formatter.dateFormat = "yyyy년 MM월 dd일"
+//
+//                return formatter.string(from: date)
+//
+//            }
+//
+//        }
+        let date = sender.date
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy년 \nMM월 dd일"
+        labelArr[0].text = formatter.string(from: date)
+        
+        
+        
+        
+        
+        
         
     }
     

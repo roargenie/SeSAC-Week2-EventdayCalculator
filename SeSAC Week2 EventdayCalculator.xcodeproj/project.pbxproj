@@ -13,6 +13,12 @@
 		F63C0283287EAEB900CA0F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63C0281287EAEB900CA0F07 /* Main.storyboard */; };
 		F63C0285287EAEBB00CA0F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63C0284287EAEBB00CA0F07 /* Assets.xcassets */; };
 		F63C0288287EAEBB00CA0F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63C0286287EAEBB00CA0F07 /* LaunchScreen.storyboard */; };
+		F63C0299287FAF5100CA0F07 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = F63C0298287FAF5100CA0F07 /* FSCalendar */; };
+		F63C029C287FAFAD00CA0F07 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = F63C029B287FAFAD00CA0F07 /* SideMenu */; };
+		F63C029F287FAFCF00CA0F07 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = F63C029E287FAFCF00CA0F07 /* TextFieldEffects */; };
+		F63C02A2287FB22200CA0F07 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63C02A1287FB22200CA0F07 /* Search.storyboard */; };
+		F63C02A5287FBE4200CA0F07 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F63C02A4287FBE4200CA0F07 /* IQKeyboardManagerSwift */; };
+		F63C02A7287FC2A300CA0F07 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63C02A6287FC2A300CA0F07 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,8 @@
 		F63C0284287EAEBB00CA0F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F63C0287287EAEBB00CA0F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F63C0289287EAEBB00CA0F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63C02A1287FB22200CA0F07 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		F63C02A6287FC2A300CA0F07 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63C029F287FAFCF00CA0F07 /* TextFieldEffects in Frameworks */,
+				F63C02A5287FBE4200CA0F07 /* IQKeyboardManagerSwift in Frameworks */,
+				F63C029C287FAFAD00CA0F07 /* SideMenu in Frameworks */,
+				F63C0299287FAF5100CA0F07 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,7 @@
 		F63C027A287EAEB900CA0F07 /* SeSAC Week2 EventdayCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				F63C02A0287FB21200CA0F07 /* New Group */,
 				F63C027B287EAEB900CA0F07 /* AppDelegate.swift */,
 				F63C027D287EAEB900CA0F07 /* SceneDelegate.swift */,
 				F63C027F287EAEB900CA0F07 /* ViewController.swift */,
@@ -65,6 +78,15 @@
 				F63C0289287EAEBB00CA0F07 /* Info.plist */,
 			);
 			path = "SeSAC Week2 EventdayCalculator";
+			sourceTree = "<group>";
+		};
+		F63C02A0287FB21200CA0F07 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F63C02A1287FB22200CA0F07 /* Search.storyboard */,
+				F63C02A6287FC2A300CA0F07 /* TestViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +105,12 @@
 			dependencies = (
 			);
 			name = "SeSAC Week2 EventdayCalculator";
+			packageProductDependencies = (
+				F63C0298287FAF5100CA0F07 /* FSCalendar */,
+				F63C029B287FAFAD00CA0F07 /* SideMenu */,
+				F63C029E287FAFCF00CA0F07 /* TextFieldEffects */,
+				F63C02A4287FBE4200CA0F07 /* IQKeyboardManagerSwift */,
+			);
 			productName = "SeSAC Week2 EventdayCalculator";
 			productReference = F63C0278287EAEB900CA0F07 /* SeSAC Week2 EventdayCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +139,12 @@
 				Base,
 			);
 			mainGroup = F63C026F287EAEB900CA0F07;
+			packageReferences = (
+				F63C0297287FAF5100CA0F07 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				F63C029A287FAFAD00CA0F07 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				F63C029D287FAFCF00CA0F07 /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				F63C02A3287FBE4200CA0F07 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = F63C0279287EAEB900CA0F07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +161,7 @@
 			files = (
 				F63C0288287EAEBB00CA0F07 /* LaunchScreen.storyboard in Resources */,
 				F63C0285287EAEBB00CA0F07 /* Assets.xcassets in Resources */,
+				F63C02A2287FB22200CA0F07 /* Search.storyboard in Resources */,
 				F63C0283287EAEB900CA0F07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +175,7 @@
 			files = (
 				F63C0280287EAEB900CA0F07 /* ViewController.swift in Sources */,
 				F63C027C287EAEB900CA0F07 /* AppDelegate.swift in Sources */,
+				F63C02A7287FC2A300CA0F07 /* TestViewController.swift in Sources */,
 				F63C027E287EAEB900CA0F07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +394,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F63C0297287FAF5100CA0F07 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		F63C029A287FAFAD00CA0F07 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		F63C029D287FAFCF00CA0F07 /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F63C02A3287FBE4200CA0F07 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F63C0298287FAF5100CA0F07 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F63C0297287FAF5100CA0F07 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		F63C029B287FAFAD00CA0F07 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F63C029A287FAFAD00CA0F07 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		F63C029E287FAFCF00CA0F07 /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F63C029D287FAFCF00CA0F07 /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+		F63C02A4287FBE4200CA0F07 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F63C02A3287FBE4200CA0F07 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F63C0270287EAEB900CA0F07 /* Project object */;
 }
