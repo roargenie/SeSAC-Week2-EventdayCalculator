@@ -24,25 +24,25 @@
                                     <action selector="datePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="tte-pu-NfR"/>
                                 </connections>
                             </datePicker>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icecream" translatesAutoresizingMaskIntoConstraints="NO" id="yjO-8L-98E">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icecream" translatesAutoresizingMaskIntoConstraints="NO" id="yjO-8L-98E">
                                 <rect key="frame" x="31" y="497" width="165.5" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yjO-8L-98E" secondAttribute="height" multiplier="1:1" id="yoc-Kn-HJv"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="macaroon" translatesAutoresizingMaskIntoConstraints="NO" id="GH5-AX-LIO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="macaroon" translatesAutoresizingMaskIntoConstraints="NO" id="GH5-AX-LIO">
                                 <rect key="frame" x="217.5" y="497" width="165.5" height="165.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GH5-AX-LIO" secondAttribute="height" multiplier="1:1" id="2Qe-Gy-smG"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doughnut" translatesAutoresizingMaskIntoConstraints="NO" id="zl3-Nx-Mfn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doughnut" translatesAutoresizingMaskIntoConstraints="NO" id="zl3-Nx-Mfn">
                                 <rect key="frame" x="31" y="682.5" width="165.5" height="166"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zl3-Nx-Mfn" secondAttribute="height" multiplier="1:1" id="lEr-3t-YhC"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cake" translatesAutoresizingMaskIntoConstraints="NO" id="uVY-kY-fHE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cake" translatesAutoresizingMaskIntoConstraints="NO" id="uVY-kY-fHE">
                                 <rect key="frame" x="217.5" y="682.5" width="165.5" height="166"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="uVY-kY-fHE" secondAttribute="height" multiplier="1:1" id="B7Q-aU-DQi"/>

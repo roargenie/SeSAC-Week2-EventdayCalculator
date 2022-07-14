@@ -42,24 +42,50 @@ class ViewController: UIViewController {
     
     @IBAction func datePicker(_ sender: UIDatePicker) {
         
-//        struct Dday {
-//
-//            let date = Date()
-//
-//            var dDay: String {
-//                let formatter = DateFormatter()
-//                formatter.dateFormat = "yyyy년 MM월 dd일"
-//
-//                return formatter.string(from: date)
-//
-//            }
-//
-//        }
-        let date = sender.date
+        
+        let currentDate = sender.date
+        let calendar = Calendar.current
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy년 \nMM월 dd일"
-        labelArr[0].text = formatter.string(from: date)
+        //        labelArr[0].text = formatter.string(from: date)
         
+        if let day100 = calendar.date(byAdding: .day, value: 99, to: currentDate) {
+            labelArr[0].text = formatter.string(from: day100)
+        }
+        if let day200 = calendar.date(byAdding: .day, value: 199, to: currentDate) {
+            labelArr[1].text = formatter.string(from: day200)
+        }
+        if let day300 = calendar.date(byAdding: .day, value: 299, to: currentDate) {
+            labelArr[2].text = formatter.string(from: day300)
+        }
+        if let day400 = calendar.date(byAdding: .day, value: 399, to: currentDate) {
+            labelArr[3].text = formatter.string(from: day400)
+        }
+        
+//        enum EventDay {
+//            case day100(date: Date)
+//            case day200(date: Date)
+//            case day300(date: Date)
+//            case day400(date: Date)
+//
+//        }
+//
+//        let dDay: EventDay
+//
+//        switch dDay {
+//        case .day100(date: calendar.date(byAdding: .day, value: 99, to: currentDate)):
+//            labelArr[0].text = formatter.string(from: )
+//        case .day200(date: calendar.date(byAdding: .day, value: 199, to: currentDate)):
+//            labelArr[1].text = formatter.string(from: day200)
+//        case . day300(date: calendar.date(byAdding: .day, value: 299, to: currentDate)):
+//            labelArr[2].text = formatter.string(from: day300)
+            
+        
+        
+        
+//        func days(from date: Date) -> Int {
+//            return calendar.dateComponents([.day], from: date, to: currentDate).day! + 1
+//        }
         
         
         
